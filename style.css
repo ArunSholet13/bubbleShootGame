@@ -1,0 +1,103 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ html, body{
+     width: 100%;
+     height: 100%;
+     background-color: rgb(13,152,186);
+     overflow-y: hidden;
+ }
+ 
+ #main{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #FEFAE0;
+     width: 100%;
+     height: 100%;
+     background-color: rgb(13,152,186);
+     flex-direction: column;
+     margin-top: 0.3rem;
+ }
+ #panel{
+     overflow: hidden;
+     width: 80%;
+     height: 80%;
+     border-radius: 10px;
+     background-color: #D4F1F4;
+ }
+ 
+ #ptop{
+     padding: 0px 30%;
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+     color: #bfe3e7;
+     width: 100%;
+     height: 83px;
+     background-color: #05445E;
+ }
+ 
+ .elem{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+ }
+ 
+ .box{
+     color: #053246;
+     font-weight: 700;
+     font-size: 25px;
+     padding: 5px 10px;
+     background-color: #bfe3e7;
+     border-radius: 5px;
+ }
+ 
+ #pbtm {
+    color: black;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     gap: 10px;
+     padding: 20px;
+     width: 100%;
+     height: calc(100%-100px);
+ }
+ 
+ .bubble{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: medium;
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background-color: #05445E;
+     color: #fff;
+ }
+ 
+ .bubble:hover{
+     cursor: pointer;
+     background-color: #062a39;
+     color: white;
+ }
+ .footer{
+    height: 60px;
+    text-align: center;
+    width: 80%;
+    color: #D4F1F4;
+    padding-top: 1.35rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .heading{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+ }
